@@ -3,7 +3,7 @@ MAINTAINER ioa-kite
 
 ENV PYTHONUNBUFFERED 1
 
-COPY ./requirements.txt /requirement.txt
+COPY ./requirements.txt /requirements.txt
 
 RUN pip install -r /requirements.txt
 RUN mkdir /app
